@@ -4,15 +4,15 @@
 const awsConfig = {
   // Amazon Cognito
   cognito: {
-    region: process.env.REACT_APP_AWS_REGION || 'us-east-1',
-    userPoolId: process.env.REACT_APP_COGNITO_USER_POOL_ID || 'us-east-1_XXXXXXXXX',
-    userPoolWebClientId: process.env.REACT_APP_COGNITO_CLIENT_ID || 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
+    region: process.env.REACT_APP_AWS_REGION || 'us-east-2',
+    userPoolId: process.env.REACT_APP_COGNITO_USER_POOL_ID || 'us-east-2_cwqI4uAUA',
+    userPoolWebClientId: process.env.REACT_APP_COGNITO_CLIENT_ID || '2sqo75ohr3h35g4dvvaudmp73m',
   },
 
   // API Gateway
   apiGateway: {
-    region: process.env.REACT_APP_AWS_REGION || 'us-east-1',
-    endpoint: process.env.REACT_APP_API_ENDPOINT || 'https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/prod',
+    region: process.env.REACT_APP_AWS_REGION || 'us-east-2',
+    endpoint: process.env.REACT_APP_API_ENDPOINT || 'https://rlplbofoee.execute-api.us-east-2.amazonaws.com/Prod',
   },
 
   // Stripe (test mode)

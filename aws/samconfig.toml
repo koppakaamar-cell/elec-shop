@@ -4,7 +4,11 @@ version = 0.1
 stack_name = "elec-shop-backend"
 resolve_s3 = true
 s3_prefix = "elec-shop-backend"
-region = "us-east-1"
+region = "us-east-2"
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = false
 parameter_overrides = "StripeSecretKey=sk_test_placeholder_replace_with_real_key"
+image_repositories = []
+
+[default.global.parameters]
+region = "us-east-2"
